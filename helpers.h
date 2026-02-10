@@ -15,4 +15,6 @@ void negative(int height, int width, RGBTRIPLE image[height][width]);
 // Blur image
 void blur(int height, int width, RGBTRIPLE image[height][width]);
 
+//Edge detection
+void edge(int height, int width, RGBTRIPLE image[height][width]);
 #endif
