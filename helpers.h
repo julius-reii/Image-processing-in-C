@@ -9,6 +9,8 @@ void grayscale(int height, int width, RGBTRIPLE image[height][width]);
 // Reflect image horizontally
 void reflect(int height, int width, RGBTRIPLE image[height][width]);
 
+// Convert image to negative
+void negative(int height, int width, RGBTRIPLE image[height][width]);
 
 
 #endif

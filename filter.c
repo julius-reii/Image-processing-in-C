@@ -7,7 +7,7 @@
 int main(int argc, char *argv[])
 {
     // Define allowable filters
-    char *filters = "gr";
+    char *filters = "grn";
 
     // Get filter flag and check validity
     char filter = getopt(argc, argv, filters);
@@ -109,6 +109,10 @@ int main(int argc, char *argv[])
         case 'r':
             reflect(height, width, image);
             break;
+        
+        // Negative
+        case 'n':
+            negative(height, width, image);
     }
 
     // Write outfile's BITMAPFILEHEADER
