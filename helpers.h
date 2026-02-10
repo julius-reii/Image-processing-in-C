@@ -12,5 +12,7 @@ void reflect(int height, int width, RGBTRIPLE image[height][width]);
 // Convert image to negative
 void negative(int height, int width, RGBTRIPLE image[height][width]);
 
+// Blur image
+void blur(int height, int width, RGBTRIPLE image[height][width]);
 
 #endif
