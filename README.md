@@ -1,5 +1,5 @@
 # Image-processing-in-C
-A simple C project for reading, writing, and manipulating BMP images. This project demonstrates basic image processing techniques like grayscale conversion, negative, flipping, rotation, and more, all implemented from scratch without external libraries.
+A simple C project for reading, writing, and manipulating BMP images. This project demonstrates basic image processing techniques like grayscale conversion, negative, flipping, and more, all implemented from scratch without external libraries.
 
 ----
 ### 📋Features
