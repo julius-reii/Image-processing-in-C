@@ -1,8 +1,7 @@
 # Image-processing-in-C
 A simple C project for reading, writing, and manipulating BMP images. This project demonstrates basic image processing techniques like grayscale conversion, negative, flipping, and more, all implemented from scratch without external libraries.
 
-----
-### 📋Features
+## 📋Features
 - Read and write uncompressed BMP image files.
 - Apply basic image filters:
     - Grayscale
@@ -11,9 +10,7 @@ A simple C project for reading, writing, and manipulating BMP images. This proje
     - Edge Detection
     - Reflect Horizontally
 
-----
-
-### 🛠️ Getting Started
+## 🛠️ Getting Started
 
 #### Prerequisites
 - GCC or any C compiler 
@@ -33,8 +30,7 @@ Or use the provided makefile:
 ```
 make
 ```
-----
-### 🚀 Usage
+## 🚀 Usage
 Run the program with an input 24-bit BMP file:
 ```
 ./filter [flag] input.bmp output.bmp
@@ -53,9 +49,8 @@ Convert an image to grayscale:
 ```
 ./filter -g input.bmp output.bmp
 ```
-----
 
-### 📂 Project Structure
+## 📂 Project Structure
 ```
 Image-processing-in-C/
 │
@@ -66,18 +61,17 @@ Image-processing-in-C/
 ├── Makefile        # Build instructions
 └── README.md       # Project description
 ```
-----
-### ⚙️ How It Works
+## ⚙️ How It Works
 - Reads BMP file headers and pixel data
 - Applies filters at the pixel level
 - Writes the modified pixels back to a new BMP file
 - Handles image padding and memory allocation for BMP scanlines
-----
-### 📖 References
+
+## 📖 References
 - [BMP file format specification](https://en.wikipedia.org/wiki/BMP_file_format)
 - CS50x Pset 4 (inspiration)
-----
-### 📝 License
+
+## 📝 License
 This project is open-source and free to use.
 
 ----
