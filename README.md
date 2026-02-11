@@ -70,8 +70,3 @@ Image-processing-in-C/
 ## 📖 References
 - [BMP file format specification](https://en.wikipedia.org/wiki/BMP_file_format)
 - CS50x Pset 4 (inspiration)
-
-## 📝 License
-This project is open-source and free to use.
-
-----
